@@ -1,0 +1,141 @@
+
+body{
+    margin: 0;
+}
+
+ .jumbotron h1{
+	color: white;
+	font-size: 46px; 
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+ .jumbotron h2{
+	color: white;
+	font-weight: lighter;
+
+}
+
+nav {
+   min-height: 50px;
+   font-size: 16px;
+  background-color: #404040;
+
+
+}
+   .collapse.in{
+        display: block !important;
+    }
+.navbar-default .navbar-nav > li > a {
+   color: #B8B8B8;
+ 
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:active {
+   color: white;
+}
+
+.navbar-default .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(184, 184, 184, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+button:focus {
+outline: none!important;}
+
+section {
+   padding: 75px 25px;
+
+   
+}
+#home {
+   position: relative;
+	background-color: #4184A9;
+	margin: 0 auto;
+	padding: 30vh;
+	text-align: center;
+   height: 100vh;
+   width: 100%;
+}
+
+.jumbotron {
+   position: relative;
+   background-color: #4184A9;
+   border: 1px solid white;
+   min-width: 200px;
+   max-width: 500px;
+   margin: 0 auto;
+   
+
+}
+
+
+
+
+.grey {
+   background: #FFFFFF;
+}
+
+.blue {
+   background: #E3F5FF;
+}
+
+.articleHeader {
+   color: #FF9B78;
+   padding-bottom: 20px;
+   text-align: center;
+}
+
+
+footer {
+   background: #4184A9;
+}
+
+.autor {
+   border-radius: 50%;
+   display: block;
+   margin: auto;
+}
+
+
+.gallery{
+   display:block;
+   width: 100%;
+   height: auto;
+}
+.gallery-container{
+   position: relative;
+   width: 50%;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.gallery-container:hover .overlay {
+  width: 50%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.map{
+   margin: 0 auto;
+}
